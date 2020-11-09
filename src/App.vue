@@ -1,28 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Main />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Main from './components/Main.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Main
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+  #app {
+    font-family: Hind;
+    font-weight: 400;
+    text-transform: none;
+    color: #424242;
+    line-height: 1.42857143;
+    font-size: 1rem;
+  }
 </style>
