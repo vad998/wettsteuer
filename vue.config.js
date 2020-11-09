@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/wettsteuer/'
+publicPath: ‘/wettsteuer/’
 }
